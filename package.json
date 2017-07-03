@@ -1,0 +1,21 @@
+{
+  "name": "silverfish",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "6.11.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliciaholm/silverfish.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+    "nodemailer": "*"
+  }
+}
